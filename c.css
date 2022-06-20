@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.main_1 {
+    min-height: 5vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+.khoi_a1 {
+    width: 20%;
+}
+
+.logo {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 2%;
+}
+
+.khoi_b1 {
+    width: 80%;
+}
+
+.khoi_b1 ul {
+    position: relative;
+    display: flex;
+}
+
+.khoi_b1 ul li {
+    position: relative;
+    list-style: none;
+    width: 15%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.khoi_b1 ul li a {
+    color: black;
+}
+
+.khoi_b1 ul li a:hover {
+    color: blue;
+}
+
+.main_2 {
+    background-image: linear-gradient( 102.7deg, rgba(253, 218, 255, 1) 8.2%, rgba(223, 173, 252, 1) 19.6%, rgba(173, 205, 252, 1) 36.8%, rgba(173, 252, 244, 1) 73.2%, rgba(202, 248, 208, 1) 90.9%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.khoi_a2 {
+    height: 100vh;
+    width: 40%;
+    padding-top: 8%;
+    padding-left: 3%;
+    background-size: cover;
+}
+
+.khoi_b2 {
+    height: 50vh;
+    width: 60%;
+    margin: 4%;
+    background-size: cover;
+}
+
+.khoii1 {
+    background-color: rgb(192, 255, 229);
+    border-radius: 3%;
+    width: 80%;
+    height: 55vh;
+    color: black;
+}
+
+.avatar {
+    margin: 4%;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 5px solid rgba(173, 252, 244, 1);
+}
+
+.main_3 {
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.khoi_a3 {
+    height: 35vh;
+    width: 100%;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+.khoi_a3_1 {
+    background-color: rgb(193, 127, 255);
+    width: 60%;
+    height: 7vh;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoi_a3_2 {
+    width: 100%;
+    height: 90%;
+}
+
+.khoi_b3 {
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.khoi_b3_1 {
+    background-color: rgb(193, 127, 255);
+    width: 60%;
+    height: 7vh;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoi_b3_2 {
+    width: 100%;
+    height: 90%;
+}
+
+.main_4 {
+    background-image: linear-gradient( 102.7deg, rgba(253, 218, 255, 1) 8.2%, rgba(223, 173, 252, 1) 19.6%, rgba(173, 205, 252, 1) 36.8%, rgba(173, 252, 244, 1) 73.2%, rgba(202, 248, 208, 1) 90.9%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.khoi_a4 {
+    height: 35vh;
+    width: 100%;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+.khoi_a4_1 {
+    background-color: rgb(193, 127, 255);
+    width: 60%;
+    height: 7vh;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoi_a4_2 {
+    width: 100%;
+    height: 90%;
+}
+
+.main_5 {
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.khoi_a5 {
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+.khoi_a5_1 {
+    background-color: rgb(193, 127, 255);
+    width: 60%;
+    height: 7vh;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoi_a5_2 {
+    width: 100%;
+    height: 90%;
+}
+
+.khoi_b5 {
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.khoi_b5_1 {
+    background-color: rgb(193, 127, 255);
+    width: 60%;
+    height: 7vh;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoi_b5_2 {
+    width: 100%;
+    height: 90%;
+}
