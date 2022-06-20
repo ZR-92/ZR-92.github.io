@@ -310,16 +310,17 @@
             font-size: 20px;
         }
         /*Responsive*/
+        /*mobie*/
         
-        @media(max-width:1530px) {
+        @media(max-width:600px) {
             .main_1 {
                 padding-top: 0%;
             }
             .khoi_a1 p a {
-                font-size: 50%;
+                font-size: 40%;
             }
             .khoi_b1 a {
-                font-size: 60%;
+                font-size: 45%;
             }
             .khoi_b1 ul li {
                 width: 20%;
@@ -378,11 +379,13 @@
                 font-size: 100%;
                 padding-top: 1%;
             }
-            .khoi_b2 {}
+            .khoi_b3 {
+                padding-top: 2%;
+            }
             .khoi_b3_1 {
                 background-color: rgb(193, 127, 255);
                 width: 60%;
-                height: 6.5vh;
+                height: 7vh;
                 border-radius: 2px 30px 30px 2px;
                 color: white;
                 padding-left: 3%;
