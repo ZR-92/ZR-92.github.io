@@ -305,7 +305,7 @@
                         /*Responsive*/
                         /*mobie*/
                         
-                        @media(max-width:600px) {
+                        @media(max-width:700px) {
                             .main_1 {
                                 padding-top: 0%;
                             }
