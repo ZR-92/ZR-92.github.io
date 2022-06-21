@@ -22,6 +22,8 @@
             display: flex;
             flex-direction: row;
             background-color: whitesmoke;
+            overflow: hidden;
+            box-shadow: rgb(193, 127, 255);
         }
         
         .khoi_a1 {
@@ -85,6 +87,7 @@
         .khoi_b2 p i {
             margin: 3%;
             font-size: 30px;
+            position: static;
         }
         
         .khoi_b2 .b2 {
@@ -360,7 +363,6 @@
             .khoi_b2 .b2 {
                 font-size: 7px;
             }
-            .main_3 {}
             .khoi_a3 {
                 padding-top: 10%;
             }
@@ -403,7 +405,6 @@
             .khoi_b3_2 p {
                 font-size: 100%;
             }
-            .main_4 {}
             .khoi_a4 {
                 padding-top: 10%;
             }
@@ -426,7 +427,6 @@
             .khoi_a4_2 p {
                 font-size: 100%;
             }
-            .main_5 {}
             .khoi_a5 {
                 padding-top: 10%;
             }
@@ -446,7 +446,6 @@
                 font-size: 100%;
                 padding-top: 1%;
             }
-            .khoi_b5 {}
             .khoi_b5_1 {
                 background-color: rgb(193, 127, 255);
                 width: 60%;
